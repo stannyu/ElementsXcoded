@@ -27,6 +27,17 @@ struct ContentView: View {
                 .background(Color(.systemCyan))
                 .foregroundColor(.white)
                 .clipShape(Capsule())
+                
+                NavigationLink {
+                    ListWithCellPage()
+                } label: {
+                    Text("List With Cell Page")
+                }
+                .padding()
+                .frame(width: 300)
+                .background(Color(.systemCyan))
+                .foregroundColor(.white)
+                .clipShape(Capsule())
             }
             .padding()
         }
