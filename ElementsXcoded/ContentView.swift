@@ -9,13 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+                
+                NavigationLink {
+                    ButtonsGradientPage()
+                } label: {
+                    Text("Buttons Gradient Page")
+                }
+                .padding()
+                .frame(width: 300)
+                .background(Color(.systemCyan))
+                .foregroundColor(.white)
+                .clipShape(Capsule())
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
