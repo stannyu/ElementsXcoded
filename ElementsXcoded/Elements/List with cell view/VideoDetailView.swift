@@ -46,6 +46,7 @@ struct VideoDetailView: View {
             Link(destination: video.url, label: {
                 ActionButton(title: "Watch now")
             })
+            .padding(.bottom, 40)
         }
     }
 }
