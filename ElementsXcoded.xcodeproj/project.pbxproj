@@ -16,6 +16,9 @@
 		F043DD6A28F4674C0065B13A /* VideoStructData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6928F4674C0065B13A /* VideoStructData.swift */; };
 		F043DD6C28F46E240065B13A /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6B28F46E240065B13A /* VideoDetailView.swift */; };
 		F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6E28F495970065B13A /* ViewModifiers.swift */; };
+		F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD7028F6A54D0065B13A /* TabviewPage.swift */; };
+		F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */; };
+		F0CCD6C028F9A7E300B8FC0F /* InitializerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		F043DD6928F4674C0065B13A /* VideoStructData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStructData.swift; sourceTree = "<group>"; };
 		F043DD6B28F46E240065B13A /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		F043DD6E28F495970065B13A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		F043DD7028F6A54D0065B13A /* TabviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewPage.swift; sourceTree = "<group>"; };
+		F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
+		F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,8 @@
 			children = (
 				F043DD6628F465BD0065B13A /* List with cell view */,
 				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
+				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
+				F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -91,6 +99,7 @@
 		F043DD6128F45C290065B13A /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				F043DD7028F6A54D0065B13A /* TabviewPage.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -187,8 +196,11 @@
 				F043DD5528F45BDC0065B13A /* ContentView.swift in Sources */,
 				F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */,
 				F043DD6C28F46E240065B13A /* VideoDetailView.swift in Sources */,
+				F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */,
+				F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */,
 				F043DD5328F45BDC0065B13A /* ElementsXcodedApp.swift in Sources */,
 				F043DD6A28F4674C0065B13A /* VideoStructData.swift in Sources */,
+				F0CCD6C028F9A7E300B8FC0F /* InitializerScene.swift in Sources */,
 				F043DD6528F464D20065B13A /* ListWithCellPage.swift in Sources */,
 				F043DD6328F45C460065B13A /* ButtonsGradientPage.swift in Sources */,
 			);
