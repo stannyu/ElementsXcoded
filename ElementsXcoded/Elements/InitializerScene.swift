@@ -52,6 +52,9 @@ struct InitializerScene: View {
 
 struct InitializerScene_Previews: PreviewProvider {
     static var previews: some View {
-        InitializerScene(count: 100, fruit: .orange)
+        HStack {
+            InitializerScene(count: 100, fruit: .apple)
+            InitializerScene(count: 56, fruit: .orange)
+        }
     }
 }
