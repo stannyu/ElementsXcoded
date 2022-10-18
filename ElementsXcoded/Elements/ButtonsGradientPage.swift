@@ -29,12 +29,15 @@ struct ButtonsGradientPage: View {
                 Button {
                     print("some text")
                 } label: {
-                    Text("Button text")
+                    Text("Button Stroked")
                 }
                 .padding()
                 .frame(width: 200, height: 50, alignment: .center)
                 .foregroundColor(Color.mint)
-                .overlay(Capsule().stroke(LinearGradient(gradient: customGradient, startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 3))
+                .overlay(
+                    Capsule()
+                        .stroke(LinearGradient(gradient: customGradient, startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 3)
+                )
                 
                 Button {
                     print("some text")

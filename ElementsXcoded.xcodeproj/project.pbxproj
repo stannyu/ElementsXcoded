@@ -21,6 +21,11 @@
 		F0613A0628FD5E12000889B9 /* LazyGridsNGridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */; };
 		F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */; };
 		F0CCD6C028F9A7E300B8FC0F /* InitializerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */; };
+		F0DF648628FD8F3100765A44 /* SafeAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648528FD8F3100765A44 /* SafeAreaView.swift */; };
+		F0DF648828FD911F00765A44 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648728FD911F00765A44 /* ButtonsView.swift */; };
+		F0DF648A28FEDB2700765A44 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648928FEDB2700765A44 /* StateBootcamp.swift */; };
+		F0DF648C28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */; };
+		F0DF648E28FEEFF400765A44 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +44,11 @@
 		F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridsNGridItems.swift; sourceTree = "<group>"; };
 		F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
 		F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerScene.swift; sourceTree = "<group>"; };
+		F0DF648528FD8F3100765A44 /* SafeAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaView.swift; sourceTree = "<group>"; };
+		F0DF648728FD911F00765A44 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		F0DF648928FEDB2700765A44 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
+		F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
+		F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +106,13 @@
 				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
 				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
 				F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */,
+				F0DF648728FD911F00765A44 /* ButtonsView.swift */,
+				F0DF648928FEDB2700765A44 /* StateBootcamp.swift */,
+				F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */,
+				F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */,
 				F0613A0328FAC664000889B9 /* VStackHStack.swift */,
 				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
+				F0DF648528FD8F3100765A44 /* SafeAreaView.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -203,10 +218,15 @@
 				F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */,
 				F0613A0428FAC664000889B9 /* VStackHStack.swift in Sources */,
 				F043DD6C28F46E240065B13A /* VideoDetailView.swift in Sources */,
+				F0DF648828FD911F00765A44 /* ButtonsView.swift in Sources */,
 				F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */,
 				F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */,
+				F0DF648628FD8F3100765A44 /* SafeAreaView.swift in Sources */,
 				F043DD5328F45BDC0065B13A /* ElementsXcodedApp.swift in Sources */,
+				F0DF648E28FEEFF400765A44 /* BindingBootcamp.swift in Sources */,
 				F0613A0628FD5E12000889B9 /* LazyGridsNGridItems.swift in Sources */,
+				F0DF648C28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift in Sources */,
+				F0DF648A28FEDB2700765A44 /* StateBootcamp.swift in Sources */,
 				F043DD6A28F4674C0065B13A /* VideoStructData.swift in Sources */,
 				F0CCD6C028F9A7E300B8FC0F /* InitializerScene.swift in Sources */,
 				F043DD6528F464D20065B13A /* ListWithCellPage.swift in Sources */,
