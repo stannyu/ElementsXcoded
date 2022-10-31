@@ -22,9 +22,9 @@ struct ExtractedFunctionsBootcamp: View {
                 .ignoresSafeArea()
             
             // content layer extracted
-//            ContentLayer
+            ContentLayer
             
-            MyItemView(onPressButton: self.buttonPresed)
+//            MyItemView(onPressButton: self.buttonPresed)
         }
     }
     

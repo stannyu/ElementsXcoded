@@ -18,7 +18,7 @@ struct ContentView: View {
                         Text("Hello, world!")
                         
                         NavigationLink {
-                            ButtonsGradientPage()
+                            TransitionBootcamp()
                         } label: {
                             Text("Buttons Gradient Page")
                         }

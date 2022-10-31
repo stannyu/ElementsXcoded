@@ -17,6 +17,7 @@
 		F043DD6C28F46E240065B13A /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6B28F46E240065B13A /* VideoDetailView.swift */; };
 		F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6E28F495970065B13A /* ViewModifiers.swift */; };
 		F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD7028F6A54D0065B13A /* TabviewPage.swift */; };
+		F04400E32910334B00EABAFC /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04400E22910334B00EABAFC /* SheetsBootcamp.swift */; };
 		F0613A0428FAC664000889B9 /* VStackHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0613A0328FAC664000889B9 /* VStackHStack.swift */; };
 		F0613A0628FD5E12000889B9 /* LazyGridsNGridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */; };
 		F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */; };
@@ -26,6 +27,10 @@
 		F0DF648A28FEDB2700765A44 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648928FEDB2700765A44 /* StateBootcamp.swift */; };
 		F0DF648C28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */; };
 		F0DF648E28FEEFF400765A44 /* BindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */; };
+		F0DF64902900356500765A44 /* ConditionalBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF648F2900356500765A44 /* ConditionalBootcamp.swift */; };
+		F0DF64922900393B00765A44 /* TernaryBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF64912900393B00765A44 /* TernaryBootcamp.swift */; };
+		F0DF649429003EDC00765A44 /* AnimationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF649329003EDC00765A44 /* AnimationBootcamp.swift */; };
+		F0DF649629055CF000765A44 /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DF649529055CF000765A44 /* TransitionBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,7 @@
 		F043DD6B28F46E240065B13A /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 		F043DD6E28F495970065B13A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		F043DD7028F6A54D0065B13A /* TabviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewPage.swift; sourceTree = "<group>"; };
+		F04400E22910334B00EABAFC /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
 		F0613A0328FAC664000889B9 /* VStackHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackHStack.swift; sourceTree = "<group>"; };
 		F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridsNGridItems.swift; sourceTree = "<group>"; };
 		F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		F0DF648928FEDB2700765A44 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 		F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingBootcamp.swift; sourceTree = "<group>"; };
+		F0DF648F2900356500765A44 /* ConditionalBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBootcamp.swift; sourceTree = "<group>"; };
+		F0DF64912900393B00765A44 /* TernaryBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryBootcamp.swift; sourceTree = "<group>"; };
+		F0DF649329003EDC00765A44 /* AnimationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBootcamp.swift; sourceTree = "<group>"; };
+		F0DF649529055CF000765A44 /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,16 +113,21 @@
 			isa = PBXGroup;
 			children = (
 				F043DD6628F465BD0065B13A /* List with cell view */,
-				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
-				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
+				F0DF649329003EDC00765A44 /* AnimationBootcamp.swift */,
+				F0DF649529055CF000765A44 /* TransitionBootcamp.swift */,
+				F04400E22910334B00EABAFC /* SheetsBootcamp.swift */,
 				F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */,
-				F0DF648728FD911F00765A44 /* ButtonsView.swift */,
-				F0DF648928FEDB2700765A44 /* StateBootcamp.swift */,
+				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
 				F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */,
 				F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */,
-				F0613A0328FAC664000889B9 /* VStackHStack.swift */,
-				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
+				F0DF648928FEDB2700765A44 /* StateBootcamp.swift */,
+				F0DF648F2900356500765A44 /* ConditionalBootcamp.swift */,
+				F0DF64912900393B00765A44 /* TernaryBootcamp.swift */,
 				F0DF648528FD8F3100765A44 /* SafeAreaView.swift */,
+				F0613A0328FAC664000889B9 /* VStackHStack.swift */,
+				F0DF648728FD911F00765A44 /* ButtonsView.swift */,
+				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
+				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -217,12 +232,17 @@
 				F043DD5528F45BDC0065B13A /* ContentView.swift in Sources */,
 				F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */,
 				F0613A0428FAC664000889B9 /* VStackHStack.swift in Sources */,
+				F0DF649429003EDC00765A44 /* AnimationBootcamp.swift in Sources */,
+				F0DF64922900393B00765A44 /* TernaryBootcamp.swift in Sources */,
+				F0DF64902900356500765A44 /* ConditionalBootcamp.swift in Sources */,
 				F043DD6C28F46E240065B13A /* VideoDetailView.swift in Sources */,
 				F0DF648828FD911F00765A44 /* ButtonsView.swift in Sources */,
 				F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */,
 				F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */,
+				F04400E32910334B00EABAFC /* SheetsBootcamp.swift in Sources */,
 				F0DF648628FD8F3100765A44 /* SafeAreaView.swift in Sources */,
 				F043DD5328F45BDC0065B13A /* ElementsXcodedApp.swift in Sources */,
+				F0DF649629055CF000765A44 /* TransitionBootcamp.swift in Sources */,
 				F0DF648E28FEEFF400765A44 /* BindingBootcamp.swift in Sources */,
 				F0613A0628FD5E12000889B9 /* LazyGridsNGridItems.swift in Sources */,
 				F0DF648C28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift in Sources */,
