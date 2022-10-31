@@ -28,7 +28,7 @@ struct TransitionBootcamp: View {
                     .frame(height: UIScreen.main.bounds.height * 0.5) // half of the height of the screen !!!
                     .transition(.asymmetric(insertion: .move(edge: .leading), removal: .move(edge: .bottom)))
 //                    .transition(.move(edge: .bottom))
-                    .animation(.spring(response: 0.25)) // deprecated version of .animation modifier
+//                    .animation(.spring(response: 0.25)) // deprecated version of .animation modifier
 //                    .animation(.spring(response: 0.25), value: showView) // check how it really works
             }
         }
