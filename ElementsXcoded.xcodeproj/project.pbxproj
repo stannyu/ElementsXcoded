@@ -18,6 +18,7 @@
 		F043DD6F28F495970065B13A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD6E28F495970065B13A /* ViewModifiers.swift */; };
 		F043DD7128F6A54D0065B13A /* TabviewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F043DD7028F6A54D0065B13A /* TabviewPage.swift */; };
 		F04400E32910334B00EABAFC /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04400E22910334B00EABAFC /* SheetsBootcamp.swift */; };
+		F04400EB29103B5600EABAFC /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04400EA29103B5600EABAFC /* PopoverBootcamp.swift */; };
 		F0613A0428FAC664000889B9 /* VStackHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0613A0328FAC664000889B9 /* VStackHStack.swift */; };
 		F0613A0628FD5E12000889B9 /* LazyGridsNGridItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */; };
 		F0CCD6BD28F9870B00B8FC0F /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */; };
@@ -46,6 +47,7 @@
 		F043DD6E28F495970065B13A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		F043DD7028F6A54D0065B13A /* TabviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabviewPage.swift; sourceTree = "<group>"; };
 		F04400E22910334B00EABAFC /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
+		F04400EA29103B5600EABAFC /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		F0613A0328FAC664000889B9 /* VStackHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackHStack.swift; sourceTree = "<group>"; };
 		F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridsNGridItems.swift; sourceTree = "<group>"; };
 		F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
@@ -112,22 +114,13 @@
 		F043DD6028F45C140065B13A /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				F04400E729103AD200EABAFC /* Atoms */,
+				F04400E929103B3400EABAFC /* Molecules */,
+				F04400E829103AFC00EABAFC /* BusinessConditionalLogic */,
+				F04400E529103A9500EABAFC /* BindingApproaches */,
+				F04400E429103A3000EABAFC /* Animation-n-Transitions */,
 				F043DD6628F465BD0065B13A /* List with cell view */,
-				F0DF649329003EDC00765A44 /* AnimationBootcamp.swift */,
-				F0DF649529055CF000765A44 /* TransitionBootcamp.swift */,
-				F04400E22910334B00EABAFC /* SheetsBootcamp.swift */,
-				F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */,
 				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
-				F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */,
-				F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */,
-				F0DF648928FEDB2700765A44 /* StateBootcamp.swift */,
-				F0DF648F2900356500765A44 /* ConditionalBootcamp.swift */,
-				F0DF64912900393B00765A44 /* TernaryBootcamp.swift */,
-				F0DF648528FD8F3100765A44 /* SafeAreaView.swift */,
-				F0613A0328FAC664000889B9 /* VStackHStack.swift */,
-				F0DF648728FD911F00765A44 /* ButtonsView.swift */,
-				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
-				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -157,6 +150,56 @@
 				F043DD6E28F495970065B13A /* ViewModifiers.swift */,
 			);
 			path = shared;
+			sourceTree = "<group>";
+		};
+		F04400E429103A3000EABAFC /* Animation-n-Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF649329003EDC00765A44 /* AnimationBootcamp.swift */,
+				F0DF649529055CF000765A44 /* TransitionBootcamp.swift */,
+				F04400E22910334B00EABAFC /* SheetsBootcamp.swift */,
+				F04400EA29103B5600EABAFC /* PopoverBootcamp.swift */,
+			);
+			path = "Animation-n-Transitions";
+			sourceTree = "<group>";
+		};
+		F04400E529103A9500EABAFC /* BindingApproaches */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF648B28FEE18100765A44 /* ExtractedFunctionsBootcamp.swift */,
+				F0CCD6BF28F9A7E300B8FC0F /* InitializerScene.swift */,
+				F0DF648D28FEEFF400765A44 /* BindingBootcamp.swift */,
+				F0DF648928FEDB2700765A44 /* StateBootcamp.swift */,
+			);
+			path = BindingApproaches;
+			sourceTree = "<group>";
+		};
+		F04400E729103AD200EABAFC /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				F0613A0328FAC664000889B9 /* VStackHStack.swift */,
+				F0DF648728FD911F00765A44 /* ButtonsView.swift */,
+				F043DD6228F45C460065B13A /* ButtonsGradientPage.swift */,
+				F0CCD6BC28F9870B00B8FC0F /* PaddingAndSpacer.swift */,
+				F0DF648528FD8F3100765A44 /* SafeAreaView.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		F04400E829103AFC00EABAFC /* BusinessConditionalLogic */ = {
+			isa = PBXGroup;
+			children = (
+				F0DF648F2900356500765A44 /* ConditionalBootcamp.swift */,
+				F0DF64912900393B00765A44 /* TernaryBootcamp.swift */,
+			);
+			path = BusinessConditionalLogic;
+			sourceTree = "<group>";
+		};
+		F04400E929103B3400EABAFC /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +294,7 @@
 				F0CCD6C028F9A7E300B8FC0F /* InitializerScene.swift in Sources */,
 				F043DD6528F464D20065B13A /* ListWithCellPage.swift in Sources */,
 				F043DD6328F45C460065B13A /* ButtonsGradientPage.swift in Sources */,
+				F04400EB29103B5600EABAFC /* PopoverBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
