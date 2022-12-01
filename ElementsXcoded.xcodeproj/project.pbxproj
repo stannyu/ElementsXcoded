@@ -120,7 +120,6 @@
 				F04400E529103A9500EABAFC /* BindingApproaches */,
 				F04400E429103A3000EABAFC /* Animation-n-Transitions */,
 				F043DD6628F465BD0065B13A /* List with cell view */,
-				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -198,6 +197,7 @@
 		F04400E929103B3400EABAFC /* Molecules */ = {
 			isa = PBXGroup;
 			children = (
+				F0613A0528FD5E12000889B9 /* LazyGridsNGridItems.swift */,
 			);
 			path = Molecules;
 			sourceTree = "<group>";
