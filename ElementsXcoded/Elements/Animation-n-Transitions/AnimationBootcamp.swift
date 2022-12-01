@@ -11,9 +11,9 @@ struct AnimationBootcamp: View {
     @State var isAnimated: Bool = false
     
     var body: some View {
-//        AnimationWithanimationFunc
+        AnimationWithanimationFunc
 //        AnimationWithModifier
-        AnimationSpringAnimation
+//        AnimationSpringAnimation
        
     }
     
